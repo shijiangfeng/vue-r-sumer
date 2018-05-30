@@ -4,10 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import 'normalize.css' //让每个浏览器css都初始化 保持一样
 import ElementUI from 'element-ui'; //饿了么
+import 'element-ui/lib/theme-chalk/index.css'; //饿了么css样式
 import './assets/reset.scss' //
 
-
-import 'element-ui/lib/theme-chalk/index.css'; //饿了么css样式
 Vue.use(ElementUI); //vue使用element ui
 
 Vue.config.productionTip = false
