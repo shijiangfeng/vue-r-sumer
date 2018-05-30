@@ -101,7 +101,7 @@ export default {
   fill: currentColor;
   overflow: hidden;
 }
-#app main {
+main {
   background: #ddd;
   display: flex;
   flex: 1;
