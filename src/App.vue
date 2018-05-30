@@ -5,7 +5,7 @@
       <Editor v-bind:resume="resume" class="editor" />
       <Preview v-bind:resume="resume" class="preview" />
     </main>
-    <el-button  v-on:click="editpPreview" class="editp">退出预览</el-button>
+    <el-button v-on:click="editpPreview" class="editp">退出预览</el-button>
   </div>
 </template>
 
@@ -101,7 +101,7 @@ export default {
   fill: currentColor;
   overflow: hidden;
 }
-main {
+#app main {
   background: #ddd;
   display: flex;
   flex: 1;
@@ -131,7 +131,7 @@ main {
   max-width: 1000px;
   margin: 40px auto;
 }
-.editp{
+.editp {
   display: none;
 }
 .previewMode > .editp {
